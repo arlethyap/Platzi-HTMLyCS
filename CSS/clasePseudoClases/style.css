@@ -1,0 +1,30 @@
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+  background-color: #13a4a4;
+}
+.main-nav__item {
+  display: inline-block;
+}
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* este es para cuando el mouse lo pones encima de la palabra, la palabra se pondrá de este color, hover es cuando el mouse este arriba del elemento, es un efecto y estado*/ 
+.main-nav__item a:hover {
+  color: blue;
+}
+
+/* esto es para cuando le das click y lo mantienes presionado saldrá de ese color.*/ 
+.main-nav__item a:active {
+  color: red;
+}
+
+/* despues del elemento agrega lo del contenido, se tiene que especificar*/ 
+.main-nav__item a::after {
+  content: " | ";
+}

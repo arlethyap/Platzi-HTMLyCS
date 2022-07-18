@@ -1,0 +1,19 @@
+p{
+    color: blue;
+    font-size: 40px;
+}
+
+/* class */
+.parrafo {
+    color: red;
+    background-color: pink; 
+    
+    /* el background-color es para que se coloree el fondo de ese texto como si fuera relleno */
+}
+
+/* ID */
+#texto {
+    color: white;
+    font-size: 24px;
+    background-color: blueviolet;
+}
